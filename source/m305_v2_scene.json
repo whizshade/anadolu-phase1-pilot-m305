@@ -1,0 +1,468 @@
+{
+  "id": "m305",
+  "name": "M3-05 Niyazi Bey Sahaflar Arka Oda",
+  "img": "modules/anadolu-phase1-pilot-m305/assets/maps/m305_v2_layout_1000x1200.webp",
+  "width": 1000,
+  "height": 1200,
+  "grid": {
+    "type": 1,
+    "size": 100,
+    "distance": 5,
+    "units": "ft"
+  },
+  "tokenVision": true,
+  "globalLight": false,
+  "darkness": 0.7,
+  "walls": [
+    {
+      "id": "W-N",
+      "label": "North wall",
+      "c": [
+        55,
+        55,
+        945,
+        55
+      ],
+      "move": 1,
+      "sight": 1,
+      "light": 1,
+      "sound": 1,
+      "door": 0,
+      "ds": 0,
+      "kind": "outer"
+    },
+    {
+      "id": "W-E",
+      "label": "East wall",
+      "c": [
+        945,
+        55,
+        945,
+        1160
+      ],
+      "move": 1,
+      "sight": 1,
+      "light": 1,
+      "sound": 1,
+      "door": 0,
+      "ds": 0,
+      "kind": "outer"
+    },
+    {
+      "id": "W-S-L",
+      "label": "South wall left of secret door",
+      "c": [
+        55,
+        1160,
+        450,
+        1160
+      ],
+      "move": 1,
+      "sight": 1,
+      "light": 1,
+      "sound": 1,
+      "door": 0,
+      "ds": 0,
+      "kind": "outer"
+    },
+    {
+      "id": "SD-S",
+      "label": "South concealed secret door",
+      "c": [
+        450,
+        1160,
+        550,
+        1160
+      ],
+      "move": 1,
+      "sight": 1,
+      "light": 1,
+      "sound": 1,
+      "door": 2,
+      "ds": 0,
+      "kind": "secret-door"
+    },
+    {
+      "id": "W-S-R",
+      "label": "South wall right of secret door",
+      "c": [
+        550,
+        1160,
+        945,
+        1160
+      ],
+      "move": 1,
+      "sight": 1,
+      "light": 1,
+      "sound": 1,
+      "door": 0,
+      "ds": 0,
+      "kind": "outer"
+    },
+    {
+      "id": "W-W",
+      "label": "West wall",
+      "c": [
+        55,
+        1160,
+        55,
+        55
+      ],
+      "move": 1,
+      "sight": 1,
+      "light": 1,
+      "sound": 1,
+      "door": 0,
+      "ds": 0,
+      "kind": "outer"
+    },
+    {
+      "id": "T-PRESS-N",
+      "label": "Printing press / matbaa half-cover terrain north",
+      "c": [
+        150,
+        145,
+        370,
+        145
+      ],
+      "move": 0,
+      "sight": 1,
+      "light": 1,
+      "sound": 0,
+      "door": 0,
+      "ds": 0,
+      "kind": "terrain"
+    },
+    {
+      "id": "T-PRESS-E",
+      "label": "Printing press / matbaa half-cover terrain east",
+      "c": [
+        370,
+        145,
+        370,
+        405
+      ],
+      "move": 0,
+      "sight": 1,
+      "light": 1,
+      "sound": 0,
+      "door": 0,
+      "ds": 0,
+      "kind": "terrain"
+    },
+    {
+      "id": "T-PRESS-S",
+      "label": "Printing press / matbaa half-cover terrain south",
+      "c": [
+        370,
+        405,
+        150,
+        405
+      ],
+      "move": 0,
+      "sight": 1,
+      "light": 1,
+      "sound": 0,
+      "door": 0,
+      "ds": 0,
+      "kind": "terrain"
+    },
+    {
+      "id": "T-PRESS-W",
+      "label": "Printing press / matbaa half-cover terrain west",
+      "c": [
+        150,
+        405,
+        150,
+        145
+      ],
+      "move": 0,
+      "sight": 1,
+      "light": 1,
+      "sound": 0,
+      "door": 0,
+      "ds": 0,
+      "kind": "terrain"
+    },
+    {
+      "id": "T-IRON-N",
+      "label": "Locked iron cabinet half-cover terrain north",
+      "c": [
+        800,
+        425,
+        930,
+        425
+      ],
+      "move": 0,
+      "sight": 1,
+      "light": 1,
+      "sound": 0,
+      "door": 0,
+      "ds": 0,
+      "kind": "terrain"
+    },
+    {
+      "id": "T-IRON-E",
+      "label": "Locked iron cabinet half-cover terrain east",
+      "c": [
+        930,
+        425,
+        930,
+        675
+      ],
+      "move": 0,
+      "sight": 1,
+      "light": 1,
+      "sound": 0,
+      "door": 0,
+      "ds": 0,
+      "kind": "terrain"
+    },
+    {
+      "id": "T-IRON-S",
+      "label": "Locked iron cabinet half-cover terrain south",
+      "c": [
+        930,
+        675,
+        800,
+        675
+      ],
+      "move": 0,
+      "sight": 1,
+      "light": 1,
+      "sound": 0,
+      "door": 0,
+      "ds": 0,
+      "kind": "terrain"
+    },
+    {
+      "id": "T-IRON-W",
+      "label": "Locked iron cabinet half-cover terrain west",
+      "c": [
+        800,
+        675,
+        800,
+        425
+      ],
+      "move": 0,
+      "sight": 1,
+      "light": 1,
+      "sound": 0,
+      "door": 0,
+      "ds": 0,
+      "kind": "terrain"
+    },
+    {
+      "id": "T-NDESK-N",
+      "label": "North-east work table half-cover terrain north",
+      "c": [
+        510,
+        130,
+        780,
+        130
+      ],
+      "move": 0,
+      "sight": 1,
+      "light": 1,
+      "sound": 0,
+      "door": 0,
+      "ds": 0,
+      "kind": "terrain"
+    },
+    {
+      "id": "T-NDESK-E",
+      "label": "North-east work table half-cover terrain east",
+      "c": [
+        780,
+        130,
+        780,
+        310
+      ],
+      "move": 0,
+      "sight": 1,
+      "light": 1,
+      "sound": 0,
+      "door": 0,
+      "ds": 0,
+      "kind": "terrain"
+    },
+    {
+      "id": "T-NDESK-S",
+      "label": "North-east work table half-cover terrain south",
+      "c": [
+        780,
+        310,
+        510,
+        310
+      ],
+      "move": 0,
+      "sight": 1,
+      "light": 1,
+      "sound": 0,
+      "door": 0,
+      "ds": 0,
+      "kind": "terrain"
+    },
+    {
+      "id": "T-NDESK-W",
+      "label": "North-east work table half-cover terrain west",
+      "c": [
+        510,
+        310,
+        510,
+        130
+      ],
+      "move": 0,
+      "sight": 1,
+      "light": 1,
+      "sound": 0,
+      "door": 0,
+      "ds": 0,
+      "kind": "terrain"
+    },
+    {
+      "id": "T-CDESK-N",
+      "label": "Central work desk half-cover terrain north",
+      "c": [
+        360,
+        570,
+        680,
+        570
+      ],
+      "move": 0,
+      "sight": 1,
+      "light": 1,
+      "sound": 0,
+      "door": 0,
+      "ds": 0,
+      "kind": "terrain"
+    },
+    {
+      "id": "T-CDESK-E",
+      "label": "Central work desk half-cover terrain east",
+      "c": [
+        680,
+        570,
+        680,
+        940
+      ],
+      "move": 0,
+      "sight": 1,
+      "light": 1,
+      "sound": 0,
+      "door": 0,
+      "ds": 0,
+      "kind": "terrain"
+    },
+    {
+      "id": "T-CDESK-S",
+      "label": "Central work desk half-cover terrain south",
+      "c": [
+        680,
+        940,
+        360,
+        940
+      ],
+      "move": 0,
+      "sight": 1,
+      "light": 1,
+      "sound": 0,
+      "door": 0,
+      "ds": 0,
+      "kind": "terrain"
+    },
+    {
+      "id": "T-CDESK-W",
+      "label": "Central work desk half-cover terrain west",
+      "c": [
+        360,
+        940,
+        360,
+        570
+      ],
+      "move": 0,
+      "sight": 1,
+      "light": 1,
+      "sound": 0,
+      "door": 0,
+      "ds": 0,
+      "kind": "terrain"
+    }
+  ],
+  "lights": [
+    {
+      "id": "L1",
+      "label": "Center oil lamp / worktable lamp",
+      "x": 500,
+      "y": 765,
+      "config": {
+        "dim": 220,
+        "bright": 70,
+        "color": "#f2b65e",
+        "alpha": 0.42,
+        "animation": {
+          "type": "none",
+          "speed": 1,
+          "intensity": 1
+        }
+      }
+    },
+    {
+      "id": "L2",
+      "label": "North work desk oil lamp",
+      "x": 690,
+      "y": 210,
+      "config": {
+        "dim": 180,
+        "bright": 55,
+        "color": "#f2c06b",
+        "alpha": 0.32,
+        "animation": {
+          "type": "none",
+          "speed": 1,
+          "intensity": 1
+        }
+      }
+    }
+  ],
+  "journalPins": [
+    {
+      "id": "PIN-A",
+      "label": "Matbaa / baskı tezgâhı",
+      "x": 255,
+      "y": 250,
+      "text": "Küçük el matbaası. Forgery prep için ana üretim aracı. Heavy object; half-cover. Terrain wall rectangle ekli."
+    },
+    {
+      "id": "PIN-B",
+      "label": "Kilitli demir dolap",
+      "x": 835,
+      "y": 525,
+      "text": "Kilitli demir dolap. Allied seals, templates ve kritik belgeler. Pick DC 17 / Break DC 18. Half-cover terrain wall ekli."
+    },
+    {
+      "id": "PIN-C",
+      "label": "Çalışma masası",
+      "x": 505,
+      "y": 810,
+      "text": "Mühür, mürekkep, kâğıt ve notlar. Investigation ile ipuçları bulunabilir. Half-cover terrain wall ekli."
+    },
+    {
+      "id": "PIN-D",
+      "label": "Kuzey evrak masası",
+      "x": 650,
+      "y": 285,
+      "text": "Ek belge, çalışma notu ve kâğıt stoğu. Düşük değerli ama sahne bilgisini destekler. L2 ile üst üste binmemesi için pin kaydırıldı."
+    },
+    {
+      "id": "PIN-E",
+      "label": "Gizli kapı / Güney",
+      "x": 500,
+      "y": 1130,
+      "text": "Güney duvarında gizli kapı. Perception DC 16, Investigation DC 14."
+    }
+  ],
+  "foundryTarget": "v12 primary; maximum compatibility intentionally capped at 12 in module.json",
+  "version": "v2",
+  "notes": "v2 fixes: terrain cover rectangles, v12-only manifest, macro rerun protection, integer grid type, shifted overlapping pin, reduced lamp radius."
+}

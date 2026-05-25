@@ -1,0 +1,36 @@
+[
+  {
+    "id": "L1",
+    "label": "Center oil lamp / worktable lamp",
+    "x": 500,
+    "y": 765,
+    "config": {
+      "dim": 220,
+      "bright": 70,
+      "color": "#f2b65e",
+      "alpha": 0.42,
+      "animation": {
+        "type": "none",
+        "speed": 1,
+        "intensity": 1
+      }
+    }
+  },
+  {
+    "id": "L2",
+    "label": "North work desk oil lamp",
+    "x": 690,
+    "y": 210,
+    "config": {
+      "dim": 180,
+      "bright": 55,
+      "color": "#f2c06b",
+      "alpha": 0.32,
+      "animation": {
+        "type": "none",
+        "speed": 1,
+        "intensity": 1
+      }
+    }
+  }
+]

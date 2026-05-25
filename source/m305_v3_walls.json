@@ -1,0 +1,376 @@
+[
+  {
+    "id": "W-N",
+    "label": "North wall",
+    "c": [
+      55,
+      55,
+      945,
+      55
+    ],
+    "move": 1,
+    "sight": 1,
+    "light": 1,
+    "sound": 1,
+    "door": 0,
+    "ds": 0,
+    "kind": "outer"
+  },
+  {
+    "id": "W-E",
+    "label": "East wall",
+    "c": [
+      945,
+      55,
+      945,
+      1160
+    ],
+    "move": 1,
+    "sight": 1,
+    "light": 1,
+    "sound": 1,
+    "door": 0,
+    "ds": 0,
+    "kind": "outer"
+  },
+  {
+    "id": "W-S-L",
+    "label": "South wall left of secret door",
+    "c": [
+      55,
+      1160,
+      450,
+      1160
+    ],
+    "move": 1,
+    "sight": 1,
+    "light": 1,
+    "sound": 1,
+    "door": 0,
+    "ds": 0,
+    "kind": "outer"
+  },
+  {
+    "id": "SD-S",
+    "label": "South concealed secret door",
+    "c": [
+      450,
+      1160,
+      550,
+      1160
+    ],
+    "move": 1,
+    "sight": 1,
+    "light": 1,
+    "sound": 1,
+    "door": 2,
+    "ds": 0,
+    "kind": "secret-door"
+  },
+  {
+    "id": "W-S-R",
+    "label": "South wall right of secret door",
+    "c": [
+      550,
+      1160,
+      945,
+      1160
+    ],
+    "move": 1,
+    "sight": 1,
+    "light": 1,
+    "sound": 1,
+    "door": 0,
+    "ds": 0,
+    "kind": "outer"
+  },
+  {
+    "id": "W-W",
+    "label": "West wall",
+    "c": [
+      55,
+      1160,
+      55,
+      55
+    ],
+    "move": 1,
+    "sight": 1,
+    "light": 1,
+    "sound": 1,
+    "door": 0,
+    "ds": 0,
+    "kind": "outer"
+  },
+  {
+    "id": "T-PRESS-N",
+    "label": "Printing press / matbaa tall-object blocking terrain north",
+    "c": [
+      150,
+      145,
+      370,
+      145
+    ],
+    "move": 1,
+    "sight": 1,
+    "light": 1,
+    "sound": 0,
+    "door": 0,
+    "ds": 0,
+    "kind": "terrain"
+  },
+  {
+    "id": "T-PRESS-E",
+    "label": "Printing press / matbaa tall-object blocking terrain east",
+    "c": [
+      370,
+      145,
+      370,
+      405
+    ],
+    "move": 1,
+    "sight": 1,
+    "light": 1,
+    "sound": 0,
+    "door": 0,
+    "ds": 0,
+    "kind": "terrain"
+  },
+  {
+    "id": "T-PRESS-S",
+    "label": "Printing press / matbaa tall-object blocking terrain south",
+    "c": [
+      370,
+      405,
+      150,
+      405
+    ],
+    "move": 1,
+    "sight": 1,
+    "light": 1,
+    "sound": 0,
+    "door": 0,
+    "ds": 0,
+    "kind": "terrain"
+  },
+  {
+    "id": "T-PRESS-W",
+    "label": "Printing press / matbaa tall-object blocking terrain west",
+    "c": [
+      150,
+      405,
+      150,
+      145
+    ],
+    "move": 1,
+    "sight": 1,
+    "light": 1,
+    "sound": 0,
+    "door": 0,
+    "ds": 0,
+    "kind": "terrain"
+  },
+  {
+    "id": "T-IRON-N",
+    "label": "Locked iron cabinet tall-object blocking terrain north",
+    "c": [
+      800,
+      425,
+      930,
+      425
+    ],
+    "move": 1,
+    "sight": 1,
+    "light": 1,
+    "sound": 0,
+    "door": 0,
+    "ds": 0,
+    "kind": "terrain"
+  },
+  {
+    "id": "T-IRON-E",
+    "label": "Locked iron cabinet tall-object blocking terrain east",
+    "c": [
+      930,
+      425,
+      930,
+      675
+    ],
+    "move": 1,
+    "sight": 1,
+    "light": 1,
+    "sound": 0,
+    "door": 0,
+    "ds": 0,
+    "kind": "terrain"
+  },
+  {
+    "id": "T-IRON-S",
+    "label": "Locked iron cabinet tall-object blocking terrain south",
+    "c": [
+      930,
+      675,
+      800,
+      675
+    ],
+    "move": 1,
+    "sight": 1,
+    "light": 1,
+    "sound": 0,
+    "door": 0,
+    "ds": 0,
+    "kind": "terrain"
+  },
+  {
+    "id": "T-IRON-W",
+    "label": "Locked iron cabinet tall-object blocking terrain west",
+    "c": [
+      800,
+      675,
+      800,
+      425
+    ],
+    "move": 1,
+    "sight": 1,
+    "light": 1,
+    "sound": 0,
+    "door": 0,
+    "ds": 0,
+    "kind": "terrain"
+  },
+  {
+    "id": "T-NDESK-N",
+    "label": "North-east work table low-furniture movement-block terrain north",
+    "c": [
+      510,
+      130,
+      780,
+      130
+    ],
+    "move": 1,
+    "sight": 0,
+    "light": 0,
+    "sound": 0,
+    "door": 0,
+    "ds": 0,
+    "kind": "terrain"
+  },
+  {
+    "id": "T-NDESK-E",
+    "label": "North-east work table low-furniture movement-block terrain east",
+    "c": [
+      780,
+      130,
+      780,
+      310
+    ],
+    "move": 1,
+    "sight": 0,
+    "light": 0,
+    "sound": 0,
+    "door": 0,
+    "ds": 0,
+    "kind": "terrain"
+  },
+  {
+    "id": "T-NDESK-S",
+    "label": "North-east work table low-furniture movement-block terrain south",
+    "c": [
+      780,
+      310,
+      510,
+      310
+    ],
+    "move": 1,
+    "sight": 0,
+    "light": 0,
+    "sound": 0,
+    "door": 0,
+    "ds": 0,
+    "kind": "terrain"
+  },
+  {
+    "id": "T-NDESK-W",
+    "label": "North-east work table low-furniture movement-block terrain west",
+    "c": [
+      510,
+      310,
+      510,
+      130
+    ],
+    "move": 1,
+    "sight": 0,
+    "light": 0,
+    "sound": 0,
+    "door": 0,
+    "ds": 0,
+    "kind": "terrain"
+  },
+  {
+    "id": "T-CDESK-N",
+    "label": "Central work desk low-furniture movement-block terrain north",
+    "c": [
+      360,
+      570,
+      680,
+      570
+    ],
+    "move": 1,
+    "sight": 0,
+    "light": 0,
+    "sound": 0,
+    "door": 0,
+    "ds": 0,
+    "kind": "terrain"
+  },
+  {
+    "id": "T-CDESK-E",
+    "label": "Central work desk low-furniture movement-block terrain east",
+    "c": [
+      680,
+      570,
+      680,
+      940
+    ],
+    "move": 1,
+    "sight": 0,
+    "light": 0,
+    "sound": 0,
+    "door": 0,
+    "ds": 0,
+    "kind": "terrain"
+  },
+  {
+    "id": "T-CDESK-S",
+    "label": "Central work desk low-furniture movement-block terrain south",
+    "c": [
+      680,
+      940,
+      360,
+      940
+    ],
+    "move": 1,
+    "sight": 0,
+    "light": 0,
+    "sound": 0,
+    "door": 0,
+    "ds": 0,
+    "kind": "terrain"
+  },
+  {
+    "id": "T-CDESK-W",
+    "label": "Central work desk low-furniture movement-block terrain west",
+    "c": [
+      360,
+      940,
+      360,
+      570
+    ],
+    "move": 1,
+    "sight": 0,
+    "light": 0,
+    "sound": 0,
+    "door": 0,
+    "ds": 0,
+    "kind": "terrain"
+  }
+]

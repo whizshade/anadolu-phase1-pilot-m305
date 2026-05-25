@@ -1,0 +1,37 @@
+[
+  {
+    "id": "PIN-A",
+    "label": "Matbaa / baskı tezgâhı",
+    "x": 255,
+    "y": 250,
+    "text": "Küçük el matbaası. Forgery prep için ana üretim aracı. Heavy object; half-cover. Terrain wall rectangle ekli."
+  },
+  {
+    "id": "PIN-B",
+    "label": "Kilitli demir dolap",
+    "x": 835,
+    "y": 525,
+    "text": "Kilitli demir dolap. Allied seals, templates ve kritik belgeler. Pick DC 17 / Break DC 18. Half-cover terrain wall ekli."
+  },
+  {
+    "id": "PIN-C",
+    "label": "Çalışma masası",
+    "x": 505,
+    "y": 810,
+    "text": "Mühür, mürekkep, kâğıt ve notlar. Investigation ile ipuçları bulunabilir. Half-cover terrain wall ekli."
+  },
+  {
+    "id": "PIN-D",
+    "label": "Kuzey evrak masası",
+    "x": 650,
+    "y": 285,
+    "text": "Ek belge, çalışma notu ve kâğıt stoğu. Düşük değerli ama sahne bilgisini destekler. L2 ile üst üste binmemesi için pin kaydırıldı."
+  },
+  {
+    "id": "PIN-E",
+    "label": "Gizli kapı / Güney",
+    "x": 500,
+    "y": 1130,
+    "text": "Güney duvarında gizli kapı. Perception DC 16, Investigation DC 14."
+  }
+]
